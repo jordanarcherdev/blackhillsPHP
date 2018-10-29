@@ -23,5 +23,8 @@ AB42 3LL
 </p>
   </div>
 </div>
+<br>
+<center><p>Due to our good work, we are been elected premium fitting center from tyreleader.</p></center>
+<center><img src="public/media/Banner_8.jpg" alt="Partner"></center>
 
 <div class="mapouter"><div class="gmap_canvas"><iframe width="1000" height="326" id="gmap_canvas" src="https://maps.google.com/maps?q=blackhills%20tyres&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de/google-maps/">pureblack.de</a></div><style>.mapouter{text-align:right;height:326px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:326px;width:100%;}</style></div>

@@ -1,12 +1,12 @@
 <div id="container">
 
            <div class="clearfix">
-                 <div class="menu-primary-container"><ul id="menu-menu-1" class="menus menu-primary"><li id="menu-item-211" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="/index.php">HOME</a></li>
-<li id="menu-item-205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205"><a href="/locking-wheel-nut-removal-peterhead.php">Locking Wheel Nut Removal</a></li>
-<li id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206"><a href="/motorcycle-tyres-in-peterhead.php">Motorcycle Tyres</a></li>
-<li id="menu-item-208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a href="/motorcycle-parts-in-peterhead.php">Parts &#038; Accessories</a></li>
-<li id="menu-item-210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210"><a href="/tpms-sensor-valves.php">TPMS Sensor Valves</a></li>
-<li id="menu-item-204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-204"><a href="/contact-us.php">Contact Us!</a></li>
+                 <div class="menu-primary-container"><ul id="menu-menu-1" class="menus menu-primary"><li id="menu-item-211" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="/">HOME</a></li>
+<li id="menu-item-205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205"><a href="/?id=locking-wheel-nut-removal-peterhead">Locking Wheel Nut Removal</a></li>
+<li id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206"><a href="/?id=motorcycle-tyres-in-peterhead">Motorcycle Tyres</a></li>
+<li id="menu-item-208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a href="/?id=motorcycle-parts-in-peterhead">Parts &#038; Accessories</a></li>
+<li id="menu-item-210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210"><a href="/?id=tpms-sensor-valves">TPMS Sensor Valves</a></li>
+<li id="menu-item-204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-204"><a href="/?id=contact-us">Contact Us!</a></li>
 </ul></div>              <!--.primary menu-->
                </div>
 

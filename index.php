@@ -1,4 +1,3 @@
-<?php include("includes/config.php");?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -19,13 +18,43 @@
 
     <script src="public/js/jquery.cycle.all.js" type="text/javascript"></script>
 
-    <title>Blackhills Tyres | <?php print $PAGE_TITLE ?></title>
+    <?php if($_GET['id']=="locking-wheel-nut-removal-peterhead"){ ?>
+<title>Blackhills Tyres | Locking Wheel Nut Removal</title>
+<?php } ?>
+<?php if($_GET['id']=="motorcycle-parts-in-peterhead"){ ?>
+<title>Blackhills Tyres | Motorcycle Parts</title>
+<?php } ?>
+<?php if($_GET['id']=="motorcycle-tyres-in-peterhead"){ ?>
+<title>Blackhills Tyres | Motorcycle Tyres</title>
+<?php } ?>
+<?php if($_GET['id']=="tpms-sensor-valves"){ ?>
+<title>Blackhills Tyres | TPMS</title>
+<?php } ?>
+<?php if($_GET['id']=="contact-us"){ ?>
+<title>Blackhills Tyres | Contact Us</title>
+<?php } ?>
+
   </head>
   <body class="home page-template page-template-page-template-full page-template-page-template-full-php page page-id-164" style="background: #181818 url('public/media/background.jpg') center top no-repeat fixed;">
     <?php  include("includes/header.php"); ?>
       <?php  include("includes/slider.php"); ?>
 
-      <?php include("includes/home.php");  ?>
+      <?php if($_GET['id']=="locking-wheel-nut-removal-peterhead"){
+        include("includes/wnr.php");
+      }elseif ($_GET['id']=="motorcycle-parts-in-peterhead"){
+        include("includes/parts.php");
+      }elseif ($_GET['id']=="motorcycle-tyres-in-peterhead"){
+        include("includes/biketyres.php");
+      }elseif ($_GET['id']=="tpms-sensor-valves"){
+        include("includes/sensors.php");
+      }elseif ($_GET['id']=="contact-us"){
+        include("includes/contact.php");
+      }else{
+        include("includes/home.php");
+      }
+
+        ?>
+
 
       <?php  include("includes/footer.php"); ?>
 
